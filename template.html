@@ -3,10 +3,50 @@
 
   <head>
     <style>
+        .bar {
+            height: 130px;
+            width: 600px;
+            margin-top:10px;
+            background-color: #555555;
+
+        }
+    
+        .box {
+            display: inline-block;
+            background-color: #cccccc ;
+            height:118px;
+            margin: 6px;
+            margin-right: 0;
+        }
+        #top .box {
+            width: 32%;
+        }
     </style>
   </head>
 
   <body>
+    <div class = "bar" id = "top">
+        <div class = "box"></div>
+        <div class = "box"></div>
+        <div class = "box"></div>
+
+    </div>
+
+    <div class = "bar" id = "middle">
+        <div class = "box"></div>
+        <div class = "box"></div>
+        <div class = "box"></div>
+        <div class = "box"></div>
+
+
+    </div>
+
+    <div class = "bar" id = "bottom">
+        <div class = "box"></div>
+        <div class = "box"></div>
+
+    </div>
+         
   </body>
 
 </html>
